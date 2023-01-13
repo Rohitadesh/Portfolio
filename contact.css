@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.container{
+    height:100vh;
+    background-color: #FFD495;
+}
+.box{
+    height:80%;
+    width:50%;
+    /* background-color: red; */
+    /* padding: 10px; */
+    /* margin:50px; */
+    border:2px solid black;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom:10px;
+
+}
+.flex1{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    /* gap:10px; */
+}
+.label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+#name{
+    height:5%;
+    width: 70%;
+}
+#mail{
+    height:5%;
+    width:70%;
+}
+#message{
+    height:30%;
+    width:70%;
+}            

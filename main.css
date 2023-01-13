@@ -33,6 +33,9 @@ header,nav,ul,li{
     text-decoration: none;
     color: #1e3367;
 }
+.nav-item>a:hover{
+    color:red;
+}
 .logo img{
     position: absolute;
     /* border: 1px solid black; */
