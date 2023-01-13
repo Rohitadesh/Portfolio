@@ -4,7 +4,8 @@
 }
 .container{
     height:100vh;
-    background-color: #FFD495;
+    /* background-color: #FFC3A1; */
+    background-image: linear-gradient(to right top, #845ec2, #5c86e1, #37a7ee, #48c4ef, #7bdeec, #8ce8ec, #9ef2ed, #b1fcee, #a1fcee, #8ffcee, #79fbef, #5ffbf1);
 }
 .box{
     height:80%;
@@ -17,33 +18,45 @@
     display: flex;
     align-items: center;
     justify-content:center;
+    /* gap:20px; */
 }
 .flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    bottom:10px;
+    bottom:20px;
 
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .flex1{
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
-    /* gap:10px; */
+    gap:30px;
 }
-.label{
+/* .label{
     padding: 12px 12px 12px 0;
-    display: inline-block;
-}
+    display: inline-block; */
+/* } */
 #name{
     height:5%;
     width: 70%;
+    border: none;
+    background-color:#5FFBF1
+    /* border-bottom: 2px solid red; */
 }
 #mail{
     height:5%;
     width:70%;
+    border: none;
+    /* color:#5FFBF1; */
+    background-color: #5FFBF1;
+    /* border-bottom: 2px solid red; */
 }
 #message{
-    height:30%;
+    height:5%;
     width:70%;
+    border: none;
+    background-color: #5FFBF1;
+    /* border-bottom: 2px solid blue; */
 }            
