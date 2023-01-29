@@ -93,37 +93,38 @@ header,nav,ul,li{
 }
 .footerbox{
     height: 30vh;
-    width:15%;
-    border: 1px solid green;
+    width:25%;
+    /* border: 1px solid green; */
     background-image: none;
 
 }
-.fa fa-github{
-    font-size: 25px;
+.flexfooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-.h3{
-    border-style: none;
-    text-decoration: none;
-    background: none;
+.footerline{
+    height:60%;
+    width:50%;
+    /* border:1px solid blue; */
+    background-image: none;
 }
 .button{
-    border:none;
-    /* width: fit-content; */
-    /* border: black */
-    /* width:5px; */
-    text-align: center;
-    justify-content: center ;
-    /* background-image: none; */
-    border-style: none;
-    text-decoration: none;
-    background: none;
+    /* height:25%; */
+    /* width:40%; */
+    border: none;
+    background-image: none;
+    color: red;
 }
-.flexfooter{
+/* .img{
+    height:25%;
+    width:10%
+} */
+.flexline{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    text-align:center;
-    justify-content: center;
-    gap:5px;
-    right:5px;
+    justify-content: space-between;
+    align-items:flex-start; 
 }
