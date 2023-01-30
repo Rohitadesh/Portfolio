@@ -91,40 +91,40 @@ header,nav,ul,li{
     background-repeat: no-repeat;
     overflow:hidden;
 }
-.footerbox{
-    height: 30vh;
-    width:25%;
-    /* border: 1px solid green; */
-    background-image: none;
-
-}
-.flexfooter{
+.flexfootcontainer{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.footerline{
-    height:60%;
-    width:50%;
-    /* border:1px solid blue; */
-    background-image: none;
-}
-.button{
-    /* height:25%; */
-    /* width:40%; */
-    border: none;
-    background-image: none;
-    color: red;
-}
-/* .img{
-    height:25%;
-    width:10%
-} */
-.flexline{
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items:flex-start; 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footerfirstline{
+    height:29.5vh;
+    width:30%;
+    background-image: none;
+    border:1px solid red;
+    /* display; */
+    /* justify-content: space-between  ; */
+    gap:10%;
+}
+h2{
+    font-size: 24px;
+    background-image: none;
+}
+.h3{
+    font-size: 10px;
+    background-image: none;
+}
+.fa fa-phone{
+    font-size: 36px;
+}
+h4{
+    font-size: 15px;
+    background-image: none;
+}
+.footersecondline{
+    height:29.5vh;
+    width:40%;
+    border:1px solid brown;
+    background-image: none;
 }
